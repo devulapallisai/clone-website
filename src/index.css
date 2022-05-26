@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: Helveticabold;
+    src: url("../fonts/HelveticaFont/Helvetica-bold.ttf");
+  }
+  @font-face {
+    font-family: Helvetica;
+    src: url("../fonts/HelveticaFont/Helvetica.ttf");
+  }
+}
+
+html {
+  overflow-x: hidden;
+}
